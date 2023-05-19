@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>ShopWheyXMEN</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/css/app.css">
+        <script src="/dean/assets/jvscr/slider.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="./assets/css/base.css">
+        <link rel="stylesheet" href="./assets/css/main.css">
+        <link rel="stylesheet" href="./assets/css/grid.css">
+        <link rel="stylesheet" href="./assets/css/responsive.css">
+        <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.12.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=vietnamese" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+        <div class="app">
+            <header class="header">
+                <nav class="header__navbar hide-on-mobile-tablet">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                            WheyHL
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title--no-pointer">Kết nối</span>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-instagram"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-twitter"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-google"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-notify">
+                            <a href="" class="header__navbar-item-link">
+                                <span class="header__navbar-icon material-symbols-outlined">
+                                    notifications
+                                </span>
+                                Thông báo
+                            
+                            </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/ct2.webp" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Monohydrat Creatine</span>
+                                                <span class="header__notify-descriotion">Với thành phần 100% Micronized Creatine Monohydrate nên sản phẩm bột BPI Micronized Creatine</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/bcaa-3.webp" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Monohydrat Creatine</span>
+                                                <span class="header__notify-descriotion">Với thành phần 100% Micronized Creatine Monohydrate nên sản phẩm bột BPI Micronized Creatine</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon far fa-question-circle"></i>
+                                Trợ giúp
+                            
+                            </a>
+                        </li> 
+                         <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng ký</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li>  -->
+                         <li class="header__navbar-item header__navbar-user">
+                            <img src="https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=1436874966471696&height=50&width=50&ext=1583592851&hash=AeSehlCj0ZRGeZRs" alt="" class="header__navbar-user-img">
+                            <span class="header__navbar-user-name">LunaCbum</span>
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="">Tài khoản của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Địa chỉ của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Đơn mua</a>
+                                </li>
+                                <li class="header__navbar-user-item header__navbar-user-item--separate">
+                                    <a href="">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="grid wide">
+                    <!-- Header with search -->
+                    <div class="header-with-search">
+                        <label for="mobile-search-checkbox" class="header__mobile-search">
+                            <i class="header__mobile-search-icon fas fa-search"></i>
+                        </label>
+                        <div class="header__logo hide-on-tablet">
+                            <a href="/" class="header__logo-link">
+                                <img style="height: 100ox; height: 40px;" src="assets/img/gymstore.webp" alt="">
+                            </a>
+                        </div>
+                        <input type="checkbox" hidden id="mobile-search-checkbox" class="header__search-checkbox">
+                        <div class="header__search">
+                            <div class="header__search-input-wrap">
+                                <input type="text" class="header__search-input" placeholder="Bạn cần tìm kiếm gì 
+                                ">
+                                <!-- Search history -->
+                                <div class="header__search-history">
+                                    <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                    <ul class="header__search-history-list">
+                                        <li class="header__search-history-item">
+                                            <a href="#">Whey isolate</a>
+                                        </li>
+                                        <li class="header__search-history-item">
+                                            <a href="#">BCAA</a>
+                                        </li>
+                                        <li class="header__search-history-item">
+                                            <a href="#">Pre-Workout</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <button class="header__search-btn">
+                                <a href="">
+                                    <i class="fa-solid fa-magnifying-glass header__search-btn-icon" style="color: #ffffff;"></i>
+                                </a>
+                            </button>
+                        </div>
+
+                        <div class="header__cart">
+                            <div class="header__cart-wrap">
+                                <span class="material-symbols-outlined">
+                                    shopping_cart
+                                    </span>
+                                <span class="header__cart-notice">3</span>
+                                 <!-- No cart: header__cart-list--no-cart  -->
+                                <div class="header__cart-list">
+                                    <img src="./assets/img/no_cart.png" alt="" class="header__cart-no-cart-img">
+                                    <span class="header__cart-list-no-cart-msg">Chưa có sản phẩm
+                                    </span>
+                                    <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                    <ul class="header__cart-list-item">
+                                         <!-- Cart item  -->
+                                        <li class="header__cart-item">
+                                            <img src="./assets/img/ck7.webp" alt="" class="header__cart-img">
+                                            <div class="header__cart-item-info">
+                                                <div class="header__cart-item-head">
+                                                    <h5 class="header__cart-item-name">Myprotein Layered Protein Bar - 200gam 1 thanh</h5>
+                                                    <div class="header__cart-item-price-wrap">
+                                                        <span class="header__cart-item-price">2.000.000đ</span>
+                                                        <span class="header__cart-item-multiply">x</span>
+                                                        <span class="header__cart-item-qnt">8</span>
+                                                    </div>
+                                                </div>
+                                                <div class="header__cart-item-body">
+                                                    <span class="header__cart-item-description">Phân loại: Bạc
+                                                    </span>
+                                                    <span class="header__cart-item-remove">Xóa</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="header__cart-item">
+                                            <img src="./assets/img/bcaa-3.webp" alt="" class="header__cart-img">
+                                            <div class="header__cart-item-info">
+                                                <div class="header__cart-item-head">
+                                                    <h5 class="header__cart-item-name">BCAA proSupps Hydro</h5>
+                                                    <div class="header__cart-item-price-wrap">
+                                                        <span class="header__cart-item-price">1.450.000đ</span>
+                                                        <span class="header__cart-item-multiply">x</span>
+                                                        <span class="header__cart-item-qnt">9</span>
+                                                    </div>
+                                                </div>
+                                                <div class="header__cart-item-body">
+                                                    <span class="header__cart-item-description">Phân loại: kim cương
+                                                    </span>
+                                                    <span class="header__cart-item-remove">Xóa</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="header__cart-item">
+                                            <img src="./assets/img/ck1.webp" alt="" class="header__cart-img">
+                                            <div class="header__cart-item-info">
+                                                <div class="header__cart-item-head">
+                                                    <h5 class="header__cart-item-name">Orgain Protein Snach Bar,4kg/bar, 1000 bar</h5>
+                                                    <div class="header__cart-item-price-wrap">
+                                                        <span class="header__cart-item-price">32.000.000đ</span>
+                                                        <span class="header__cart-item-multiply">x</span>
+                                                        <span class="header__cart-item-qnt">7</span>
+                                                    </div>
+                                                </div>
+                                                <div class="header__cart-item-body">
+                                                    <span class="header__cart-item-description">Phân loại: uranium
+                                                    </span>
+                                                    <span class="header__cart-item-remove">Xóa</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="header__sort-bar">
+                    <li class="header__sort-item">
+                        <a href="" class="header__sort-link">Liên quan</a>
+                    </li>
+                    <li class="header__sort-item header__sort-item--active">
+                        <a href="" class="header__sort-link">Mới nhất</a>
+                    </li>
+                    <li class="header__sort-item">
+                        <a href="" class="header__sort-link">Bán chạy</a>
+                    </li>
+                    <li class="header__sort-item">
+                        <a href="" class="header__sort-link">Giá</a>
+                    </li>
+                </ul>
+            </header>
+            </div>
+            <div class="nonlong">
+                <div class="dropdown">
+                    <button class="dropbtn">DANH MỤC SẢN PHẨM</button>
+                    <div class="dropdown-content">
+                        <a href=""> 
+                            <i class="fa-solid fa-gift"></i>
+                            Sản Phẩm Nổi bật
+                        </a>
+                        <div class="contet">
+                            <a href=""> 
+                                <img style="display: flex; width: 30px; height: 30px;" src="./assets/img/whey.png" alt="">
+                                    <p id="nunglon">whey Protein</p>
+                                </a>
+                        </div>
+                        <a href="">
+                            <i class="fa-solid fa-spa"></i>
+                            Sữa tăng cân
+                        </a>
+                        <a href="">
+                            <i class="fa-solid fa-fire"></i>
+                            Hiệu Suất Tập luyện
+                        </a>
+                        <a href="">
+                            <i class="fa-solid fa-heart"></i>
+                            Sức Khỏe toàn diện
+                        </a>
+                        <a href="">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            Hỗ trợ giảm mỡ
+                        </a>
+                        <a href="">
+                            <i class="fa-solid fa-clipboard"></i>
+                            Blog
+                        </a>
+                        <a href="">Thương Hiệu Nổi bật</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">BCAAs, EAAs</button>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Pre-Workout, Creatine</button>
+                    <div class="dropdown-content">
+                        <a href=""> 
+                            Pre-Workout
+                        </a>
+                        <div class="contet">
+                        <a href=""> 
+                            Pre-giảm Mỡ
+                        </a>
+                        </div>
+                        <a href="">
+                            Đơn Chất
+                        </a>
+                        <a href="">
+                            Creatine
+                        </a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Vitamin Khoáng chất</button>
+                    <div class="dropdown-content">
+                        <a href=""> 
+                            Bổ sung Vitamin
+                        </a>
+                        <div class="contet">
+                            <a href=""> 
+                                Bổ sung dầu cá
+                            </a>
+                        </div>
+                        <a href="">
+                            Tăng testosterone
+                        </a>
+                    </div>
+                </div>
+                <div class="topnav">
+                    <a style="font-size: 16px;" href="#">Sản phẩm chính hãng</a> 
+                    <a  href="riviu.html">Lý Do chọn đề tài</a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="content">
+                    <div class="row">
+                        <div class="col col-md-center">
+                            <div class="content_text">
+                                <p><b style="font-size: 20px;color: #ED4D2D;">GIỚI THIỆU VỀ BẢN THÂN</b></p>
+                                <p><b><span style="font-size: 16px;color: #ED4D2D;">Họ Và Tên :</span> <span style="font-size: 14px;">Nguyễn Ngọc Hải Luân</span></b></p>
+                                <p><b><span style="font-size: 16px;color: #ED4D2D;">Lớp :</span> <span style="font-size: 14px;">12DHTH07</span></b></p>
+                                <p><b><span style="font-size: 16px;color: #ED4D2D;">MSSV :</span> <span style="font-size: 14px;">2001210736</span></b></p>
+                                <p><b><SPAN style="font-size: 16px;color: #ED4D2D;">Chuyên Ngành :</SPAN> <span style="font-size: 14px;">Công nghệ Thông Tin</span></b></p>
+                            </div>
+                            <div class="content_iamge">
+                                <img src="./assets/img/bcaa-3.webp" class="rounded mx-auto d-block" alt="...">
+                            </div>
+                        </div>
+                        <div class="col col-md-center">
+                            <div class="content_text_1">
+                                <p><b style="font-size: 20px;color: #ED4D2D;">GIỚI THIỆU ĐỒ ÁN</b></p>
+                                <p>
+                                    <span style="font-size: 16px;color: #ED4D2D;"><b>Tên Đồ Án :</b></span>
+                                    <span style="font-size: 14px;">Giới thiệu website bán hàng (thực phẩm chức năng whey protein)</span></br>
+                                    <span><B style="font-size: 16px;color: #ED4D2D;">Link Đề án:</B></span>
+                                </p>
+                                <p><b style="font-size: 16px;color: #ED4D2D;">1. Yêu Cầu Đặt Ra </b></p>
+                                <p style="font-size: 14px;"> + Deploy trang web thực tế lên internet</p>
+                                <p style="font-size: 14px;"> + Các trang bắt buộc phải responsive</p>
+                                <p style="font-size: 14px;"> + các trang này phải có đường link qua lại với nhau</p>
+                                <p style="font-size: 14px;"> + Thiết kế trang web có đủ các page sau:</p>
+                                
+                                <ul>
+                                    <li>
+                                        <span><b style="font-size: 16px;color: #ED4D2D;">Trang Chủ : </b></span>
+                                        <span style="font-size: 14px;">
+                                            Hiển thị đầy đủ logo của GymStore.Có các thông tin địa chỉ về GymStore,
+                                            cung cấp cho người dùng những thực phẩm chức năng tốt nhất,khuyến mãi, ưu đãi
+                                            và những sản phẩm mới nhất được hiển thị tại trang chủ.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span><b style="font-size: 16px;color: #ED4D2D;">Trang liệt kê sản phẩm : </b></span>
+                                        <span style="font-size: 14px;">
+                                            Liệt kê ra những sản phẩm mới nhất,những hãng whey được tài trợ bởi cái hãng hàng khác nhau
+                                            có thể điều chỉnh mức giá xuống phù hợp với giá thành hiện nay
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span><b style="font-size: 16px;color: #ED4D2D;">Trang giới thiệu sinh viên và dự án:</b></span>
+                                        <span style="font-size: 14px;">giới thiệu về bản thân sinh viên và dự án lớn đang làm
+                                            giới thiệu về dự án : thiết kế website bán hàng (Whey protein)</br>
+                                             <span><b style="font-size: 16px;">1. Vậy Whey Protein là gì mà được hầu hết người trẻ tới người già ưa chuộng đến thế?</b></span></br>
+                                             <span>
+                                                Whey protein là phần chất lỏng của sữa được tách ra trong quá trình sản xuất phô mai và thành phần của whey chứa hai loại protein chính: casein (80%) và whey (20%).
+                                                Trong quá trình sản xuất phô mai, các phần chất béo của sữa bị đông lại và whey được tách ra khỏi phô mai như một sản phẩm phụ. Nếu bạn đã từng mở một hộp đựng sữa chua và thấy chất lỏng nổi trên đầu của sữa chua thì đó là whey.
+                                                Sau khi được tách ra trong quá trình sản xuất phô mai, whey trải qua các bước chế biến khác nhau để trở thành thứ mà mọi người thường gọi là whey protein - một loại bột được lắc để pha, bữa ăn thay thế (meal replacements) và thanh protein (protein bars).
+                                                Do Whey protein không có vị nên nhà sản xuất thường phải bổ sung hương vị vào như socola, vani và dâu tây là ba vị phổ biến.                              
+                                                Trước khi sử dụng, người dùng nên đọc kỹ thành phần của whey protein do một số sản phẩm có thể có các chất bổ sung không tốt cho sức khỏe như đường tinh luyện.</span></br>
+                                                <b style="font-size: 16px;">2. Tác dụng của whey protein</b></br>
+                                                    Luyện tập thể chất. Một số bằng chứng cho thấy rằng việc sử dụng whey protein đóng một phần của kế hoạch luyện tập sức mạnh để làm tăng cân và sức mạnh của cơ bắp, tuy nhiên lại có các nghiên cứu khác cho thấy việc bổ sung này không có lợi ích như vậy. Tuy nhiên, điều chắc chắn rằng Whey protein có thể giúp tăng tốc độ hồi phục cơ bắp sau khi tập luyện ở cường độ cao.
+                                                    Whey protein tăng cân. Whey protein có thể giúp tăng cân ở những người đang gặp khó khăn trong việc tăng và giữ cân, chẳng hạn như người lớn tuổi hoặc người nhiễm HIV/AIDS.
+                                                    Làm lành vết thương. Whey protein đã được chứng minh là có lợi cho những người phục hồi sau khi bị bỏng và những người có vết thương mãn tính.
+                                                    Dị ứng. Sữa thủy phân (hydrolyzed formula) chứa protein được chia thành các kích cỡ nhỏ hơn so với sữa công thức và sữa đậu nành. Nghiên cứu cho thấy rằng trẻ sơ sinh được sử dụng whey protein có thành phần là sữa thủy phần thì có nguy cơ phát triển viêm da dị ứng (eczema) thấp hơn so với trẻ sơ sinh sử dụng sữa công thức và giảm nguy cơ xảy ra phản ứng dị ứng ở những trẻ có cơ địa dị ứng.</br>
+                                                <b style="font-size: 16px;">3. Lượng dùng whey protein bao nhiêu là đủ?</b></br>
+                                                    Do chất lượng và thành phần hoạt tính được bổ sung vào whey protein có thể khác nhau giữa các nhà sản xuất do đó hiện nay các nhà khoa học vẫn chưa thiết lập được liều lượng tiêu chuẩn cụ thể cho từng đối tượng cụ thể như lứa tuổi, tình trạng sức khỏe và giới.
+                                             </br>      Hiện nay, theo khuyến cáo của các chuyên gia như sau: 
+                                            </br>
+                                                    Để phòng và điều trị giảm cân ở những người mắc HIV/AIDS thì lượng whey protein hằng ngày được sử dụng bằng đường uống là 8.4-84 gram hoặc 2,4 gram/kg mỗi ngày với protein giàu calo hoặc 42-84 gram mỗi ngày protein giàu glutamine.
+                                                    Đối bệnh nhân vẩy nến thể mảng (Plaque Psoriasis): 5 gram whey protein mỗi ngày.
+                                             </bR>   <b style="font-size: 16px;"> 4. Tác hại của whey protein</b></br>
+                                                    Khi dùng với liều lượng thích hợp thì whey protein an toàn với người sử dụng. Một số nghiên cứu cho thấy rằng whey protein có thể gây khó chịu trên đường tiêu hóa, tuy nhiên do hạn chế về dữ liệu của các tác dụng phụ do việc sử dụng protein liều cao kết hợp với thực phẩm và chất bổ sung nên vẫn chưa có nghiên cứu đánh giá được đầy đủ tác hại của whey protein. Do đó, không nên sử dụng whey protein nếu bạn bị dị ứng hoặc nhạy cảm với các sản phẩm sữa.                                             
+                                                    Tương tác thuốc   
+                                                    Không sử dụng whey protein với Levodopa do whey protein ngăn cản cơ thể hấp thụ levodopa dẫn đến làm giảm hiệu quả của thuốc điều trị, do đó không được dùng whey protein và levodopa cùng một lúc.
+                                                    Uống whey protein và alendronate (Fosamax) cùng một lúc có thể làm giảm hàm lượng mà cơ thể hấp thụ và giảm hiệu quả của alendronate (Fosamax). Do đó, hãy sử dụng alendronate (Fosamax) sau 2 giờ uống whey protein.
+                                                    Uống whey protein cùng với một số loại kháng sinh có thể làm giảm hiệu quả của thuốc, do đó để tránh sự tương tác này, hãy dùng whey protein ít nhất sau một giờ khi dùng các loại kháng sinh sau: ciprofloxacin (Cipro), enoxacin (Penetrex), norfloxacin (Chibroxin, Noroxin), sparfloxacin (Zagam), trovafloxacin (Trovan) và grepafloxacin (Raxar).
+                                                    Canxi trong whey protein có thể gắn vào thuốc tetracycline trong dạ dày nên làm giảm lượng tetracycline mà cơ thể có thể hấp thụ. Để tránh sự tương tác này, sử dụng whey protein trước hai giờ hoặc sau bốn giờ khi uống các loại tetracycline sau: demeclocycline (Declomycin), minocycline (Minocin) và tetracycline (Achromycin).
+                                                </span> 
+                                    </li>
+                                    <li>
+                                        <span><b style="font-size: 16px;color: #ED4D2D;">Trang hiển thị form đăng ký : </b></span>
+                                        <span style="font-size: 14px;">Cho người dùng tạo tài khoản bằng cách điền thông tin của mình vào form đăng ký để được nhận nhiều ưu đãi từ chương trình hotsale của shop</span>
+                                    </li>
+                                    <li>
+                                        <span><b style="font-size: 16px;color: #ED4D2D;">Trang hiển thị chi tiết 1 sản phẩm : </b></span>
+                                        <span style="font-size: 14px;">Hiển thị những sale giảm giá ưu đãi,tặng kèm,chi tiết sản phẩm,số lượng sản phẩm,nơi xuất xứ,khối lượng sản phẩm
+                                            với lượt bán ra và đánh giá sao
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span><b style="font-size: 16px;color: #ED4D2D;">Trang hiển thị giỏ hàng (giả định) : </b></span>
+                                        <span style="font-size: 14px;">hiển thị những sản phẩm bạn đã thêm vào giỏ hàng, có thể thay đổi sản phẩm hoặc tăng số lượng sản phẩm, </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <footer class="footer_1">
+            <div class="footer__content_1">
+                <p class="footer__content_1_text"><b>ĐĂNG KÝ NHẬN EMAIL THÔNG B ÁO KHUYẾN MÃI HOẶC ĐỂ ĐƯỢC TƯ VẤN FREE</b></p>
+            </div>
+            <div class="header__search_1">
+                <div class="header__search-input-wrap_1">
+                    <input type="text" class="header__search-input" placeholder="Bạn muốn tìm kiếm sản phẩm nào" >
+                    <div class="header__search-history">
+                        <h3 class="header__search-history-heading">Nhập Mail số điện thoại của bạn</h3>
+                    </div>
+                </div>
+                <button class="header__search-btn-1">
+                    <p style="font-size: 16px;color: white;position: relative;top: 5px;"><b>Gửi</b></p>
+                </button>
+            </div>
+        </div>
+        </footer>
+                    <footer class="footer">
+                        <div class="grid wide footer__content">
+                            <div class="row">
+                                <div class="col l-2-4 m-4 c-6">
+                                    <h3 class="footer__heading">Hỗ Trợ Khách Hàng</h3>
+                                    <ul class="footer-list">
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Hướng dẫn thanh toán</a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Hướng dẫn mua hàng online</a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Chính sách khách hàng</a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Hướng dẫ mua hàng trả góp</a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Góp ý Khiếu nại</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <h3 class="footer__heading">SẢN PHẨM NỔI BẬT</h3>
+                                    <ul class="footer-list">
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Sản Phẩm Mới</a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Whey Protein</a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Sữa Tăng Cân</a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">BCAA</a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Creatine</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <h3 class="footer__heading">Chính Sách Chung</h3>
+                                    <ul class="footer-list">
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Chính sách, quy định chung</a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Chính sách đổi trả và hoàn tiền</a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Chính sách vận chuyển hàng</a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">Bảo mật thông tin khách hàng</a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">CHính sách hàng chính hãng</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <h3 class="footer__heading">Theo dõi</h3>
+                                    <ul class="footer-list">
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">
+                                                <i class="footer-item__icon fab fa-facebook"></i>
+                                                Facebook
+                                            
+                                            </a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">
+                                                <i class="footer-item__icon fab fa-instagram"></i>
+                                                Instagram
+                                            
+                                            </a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="" class="footer-item__link">
+                                                <i class="footer-item__icon fab fa-linkedin"></i>
+                                                Linkedin
+                                            
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__bottom">
+                            <div class="grid wide">
+                                <p class="footer__text">© 2023 - Những sản phẩm đăng treen website này không phải là thuốc, không có tác dụng thay thế thuộc chữa bệnh
+                                Hình ảnh và Nutrition Facts của sản phẩm chỉ mang tính chất tham khảo bởi thành phần,
+                                mẫu mã nhà sản xuất có thể thay đổi bất cứ lúc nào mà Gym X-MEN Chưa thể cập nhập được
+                                </br>CTY TNHH-1TV 2001210736-Nguyễn Ngọc Hải Luân
+                                </p>
+                                </div>
+                            </div>
+                        </footer>
+                </div>
+            </div>
+        </div> 
+        <!-- Modal layout -->
+        <!-- <div class="modal">
+            <div class="modal__overlay"></div>
+
+            <div class="modal__body"> -->
+                <!-- Register form -->
+                <!-- <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng ký</h3>
+                            <span class="auth-form__switch-btn">Đăng nhập</span>
+                        </div>
+
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                            </div>
+                        </div>
+
+                        <div class="auth-form__aside">
+                            <p class="auth-form__policy-text">
+                                Bằng việc đăng kí, bạn đã đồng ý với F8-Shop về
+                                <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a> &
+                                <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                            </p>
+                        </div>
+
+                        <div class="auth-form__controls">
+                            <button class="btn btn--normal auth-form__controls-back">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐĂNG KÝ</button>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                            <span class="auth-form__socials-title">
+                                Kết nối với Facebook
+                            </span>
+                        </a>
+                        <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fab fa-google"></i>
+                            <span class="auth-form__socials-title">
+                                Kết nối với Google
+                            </span>
+                        </a>
+                    </div>
+                </div> -->
+
+                <!-- Login form -->
+                <!-- <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng nhập</h3>
+                            <span class="auth-form__switch-btn">Đăng ký</span>
+                        </div>
+
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                            </div>
+                        </div>
+
+                        <div class="auth-form__aside">
+                            <div class="auth-form__help">
+                                <a href="" class="auth-form__help-link auth-form__help-forgot">Quên mật khẩu</a>
+                                <span class="auth-form__help-separate"></span>
+                                <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                            </div>
+                        </div>
+
+                        <div class="auth-form__controls">
+                            <button class="btn btn--normal auth-form__controls-back">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                            <span class="auth-form__socials-title">
+                                Kết nối với Facebook
+                            </span>
+                        </a>
+                        <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fab fa-google"></i>
+                            <span class="auth-form__socials-title">
+                                Kết nối với Google
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="addThis_listSharing">
+            <a href="#" id="back-to-dop" class="backtop back-to-dop d-flex align-items-center justify-content show" title="Lên đầu trang">
+                <i style="color: #fff;" class="fa-solid fa-chevron-up icon">
+                    <use xlink:href="#icon-arrow"></use>
+                </i>
+            </a>
+        </div>
+        <div class="main-widget">
+            <div class="out-circle">
+                <div class="pregan element unsee"></div>
+                <div class="pregan element unsee"></div>
+                <div class="ser-icon element">
+                    <div style="transform: translateX(0px);" class="process">
+                        <span class="item">
+                            <img src="https://sdk-vn.pushdi.com/image/maxlead/icon-messenger-nobg-s1.svg" width="46" height="46">
+                        </span>
+                    </div>
+                </div>
+                <div class="close-icon element unsee">x</div>
+            </div>
+        </div>
+        <script src="./assets/jsc/slider.js"></script>
+        <script src="./assets/jsc/mzce.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="./assets/jvscr/soluong.js"></script>
+    </body>
+</html>
